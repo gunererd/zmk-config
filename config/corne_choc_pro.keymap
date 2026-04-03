@@ -19,7 +19,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_E_3";
             #binding-cells = <0>;
-            bindings = <&kp E>, <&kp NUMBER_3>;
+            bindings = <&kp E>, <&kp N3>;
 
             tapping-term-ms = <300>;
         };
