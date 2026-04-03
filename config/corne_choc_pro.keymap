@@ -21,7 +21,7 @@
             #binding-cells = <0>;
             bindings = <&kp E>, <&kp N3>;
 
-            tapping-term-ms = <125>;
+            tapping-term-ms = <150>;
         };
 
         td_tab_tilde: td_tab_tilde {
@@ -30,7 +30,7 @@
             #binding-cells = <0>;
             bindings = <&kp TAB>, <&kp TILDE>;
 
-            tapping-term-ms = <125>;
+            tapping-term-ms = <150>;
         };
     };
 
