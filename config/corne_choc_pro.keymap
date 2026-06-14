@@ -32,6 +32,13 @@
 
             tapping-term-ms = <150>;
         };
+
+        td_space_enter: td_space_enter {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_SPACE_ENTER";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE>, <&kp ENTER>;
+        };
     };
 
     keymap {
@@ -69,7 +76,7 @@
 &kp ESC          &kp N1        &kp N2          &kp N3          &kp N4        &kp N5           &bt BT_CLR   &kp RCTRL  &trans    &trans    &trans  &trans     &trans  &trans
 &rgb_ug RGB_TOG  &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8    &kp NUMBER_9  &kp NUMBER_0     &bootloader  &trans     &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
 &kp LSHFT        &kp F11       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW                          &trans    &trans    &trans  &trans     &trans  &trans
-                                               &kp LGUI        &trans        &kp ENTER                                &kp LGUI  &trans    &trans
+                                               &kp LGUI        &trans        &td_space_enter                          &kp LGUI  &trans    &trans
             >;
         };
 
