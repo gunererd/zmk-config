@@ -54,7 +54,7 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-&td_tab_tilde  &kp Q  &kp W  &td_e_3   &kp R  &kp T      &tog 4    &kp PRINTSCREEN  &kp Y    &kp U  &kp I            &kp O    &kp P     &kp BSPC
+&td_tab_tilde  &kp Q  &kp W  &td_e_3   &kp R  &kp T      &to 4     &kp PRINTSCREEN  &kp Y    &kp U  &kp I            &kp O    &kp P     &kp BSPC
 &kp LCTRL      &kp A  &kp S  &kp D     &kp F  &kp G      &kp LALT  &mo 3            &kp H    &kp J  &kp K            &kp L    &kp SEMI  &kp SQT
 &kp LSHFT      &kp Z  &kp X  &kp C     &kp V  &kp B                                 &kp N    &kp M  &kp COMMA        &kp DOT  &kp FSLH  &kp ESC
                              &kp LGUI  &mo 1  &kp SPACE                             &kp RET  &mo 2  &kp RIGHT_SHIFT
@@ -110,10 +110,10 @@
         starcraft2 {
             display-name = "starcraft2";
             bindings = <
-&kp TAB  &trans  &trans  &trans     &trans          &trans        &tog 0  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp ESC  &trans  &trans  &trans     &trans          &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans  &trans  &trans     &trans          &trans                        &trans  &trans  &trans  &trans  &trans  &trans
-                         &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT                  &trans  &trans  &trans
+&kp TAB    &trans  &trans  &trans     &trans          &trans        &to 0   &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC    &trans  &trans  &trans     &trans          &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp SPACE  &trans  &trans  &trans     &trans          &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+                           &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT                  &trans  &trans  &trans
             >;
         };
 
