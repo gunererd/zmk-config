@@ -110,10 +110,10 @@
         starcraft2 {
             display-name = "starcraft2";
             bindings = <
-&kp TAB    &trans  &trans  &trans     &trans          &trans        &to 0   &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp ESC    &trans  &trans  &trans     &trans          &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp SPACE  &trans  &trans  &trans     &trans          &trans                        &trans  &trans  &trans  &trans  &trans  &trans
-                           &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT                  &trans  &trans  &trans
+&kp TAB    &trans  &trans  &trans     &trans          &trans        &to 0          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC    &trans  &trans  &trans     &trans          &trans        &kp BACKSPACE  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp SPACE  &trans  &trans  &trans     &trans          &trans                               &trans  &trans  &trans  &trans  &trans  &trans
+                           &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT                         &trans  &trans  &trans
             >;
         };
 
